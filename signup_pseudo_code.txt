@@ -1,9 +1,9 @@
 signup project pseudo code:
 
-home page with sign up button and sign in button
+home page with sign up button and sign in button (check)
 
-sign up page has username and password and email input fields with submit button. has link to sign in page. when signed up, it brings to another page that says "Congratulations! You've signed up! Sign in below." with username and password fields below.
+sign up page has username and password and email input fields with submit button. has link to sign in page. when signed up, it brings to another page that says "Congratulations! You've signed up! Sign in below." with username and password fields below. {when submitted, use POST request to submit username, pw and email to database as a new user with unique id using uuid. req.body.username etc.}
 
-when you sign in it brings you to an account page with different details and a log out button. you can log out and sign up or in as someone else and go to an account page with that user's info.
+when you sign in, it brings you to an account page with different details and a log out button. you can log out and sign up or in as someone else and go to an account page with that user's info. {if logged in = true, log out button = visible (on all pages). use the signed in user's username to display the name for "Signed in as {name}". Keep user signed in on all pages until clicking log out button. }
 
 sign in page just has username and password fields where you can sign in and go to the account page for that user.
