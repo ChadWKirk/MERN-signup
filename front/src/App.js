@@ -9,6 +9,7 @@ import Account from "./Pages/Account";
 function App() {
   return (
     <BrowserRouter>
+      <h1>Signer Upper</h1>
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />}></Route>
