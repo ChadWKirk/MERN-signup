@@ -1,16 +1,11 @@
 import React from "react";
+import SignInForm from "../components/SignInForm";
 
 function SignedIn() {
   return (
     <div>
       <h2>Congratulations! You've signed up! Sign in below.</h2>
-      <form>
-        <label>username</label>
-        <input></input>
-        <label>password</label>
-        <input></input>
-        <button>Sign In</button>
-      </form>
+      <SignInForm />
     </div>
   );
 }

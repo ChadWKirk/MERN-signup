@@ -5,3 +5,5 @@ what is proxy in package.json for react
 run backend and front end at the same time using a concurrent script
 
 react fetch
+
+two dots (..) to cd out of folder in import

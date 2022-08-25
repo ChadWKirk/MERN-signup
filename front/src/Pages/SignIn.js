@@ -1,15 +1,10 @@
 import React from "react";
+import SignInForm from "../components/SignInForm";
 
 function SignIn() {
   return (
     <div>
-      <form>
-        <label>username</label>
-        <input></input>
-        <label>password</label>
-        <input></input>
-        <button>Sign In</button>
-      </form>
+      <SignInForm />
     </div>
   );
 }
