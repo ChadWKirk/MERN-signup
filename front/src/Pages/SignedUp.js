@@ -1,7 +1,7 @@
 import React from "react";
 import SignInForm from "../components/SignInForm";
 
-function SignedIn() {
+function SignedUp() {
   return (
     <div>
       <h2>Congratulations! You've signed up! Sign in below.</h2>
@@ -9,4 +9,4 @@ function SignedIn() {
     </div>
   );
 }
-export default SignedIn;
+export default SignedUp;

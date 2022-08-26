@@ -1,6 +1,10 @@
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
+const router = require("./routes/routes");
+
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 
 const mongoDB =
   "mongodb+srv://ChadKirk:signup@cluster0.bchmycc.mongodb.net/users?retryWrites=true&w=majority";
@@ -12,4 +16,5 @@ app.get("/", (req, res) => {
   res.send("test");
 });
 
-app.listen(4444);
+app.use("/", router);
+app.listen(5000);

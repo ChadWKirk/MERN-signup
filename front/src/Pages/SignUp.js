@@ -4,14 +4,14 @@ function SignUp() {
   return (
     <div>
       <div>
-        <form>
-          <label>username</label>
-          <input></input>
-          <label>password</label>
-          <input></input>
-          <label>email</label>
-          <input></input>
-          <button>Sign Up</button>
+        <form action="/SignedUp" method="post">
+          <label for="username">username</label>
+          <input type="text" id="username" name="username"></input>
+          <label for="password">password</label>
+          <input type="text" id="password" name="password"></input>
+          <label for="email">email</label>
+          <input type="text" id="email" name="email"></input>
+          <button type='submit'>Sign Up</button>
         </form>
       </div>
 

@@ -7,3 +7,14 @@ run backend and front end at the same time using a concurrent script
 react fetch
 
 two dots (..) to cd out of folder in import
+
+module.exports to export routes
+
+app.use('/', router) and why put it at the end
+
+res.end()
+
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+
+for bodyparser to use req.body ^^
