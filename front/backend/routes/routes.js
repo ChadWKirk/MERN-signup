@@ -10,7 +10,9 @@ router.post("/SignedUp", (req, res) => {
   });
   newUser.save().then((savedData) => {
     //.save() saves it to db. savedData is the data going to db.
-    res.end("yes");
+    res.sendFile(
+      "C:/Users/kirkch/Desktop/MERN-Projects/MERN-signup/front/src/Pages/SignedUp.js"
+    );
   });
 });
 
