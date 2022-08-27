@@ -7,3 +7,9 @@ sign up page has username and password and email input fields with submit button
 when you sign in, it brings you to an account page with different details and a log out button. you can log out and sign up or in as someone else and go to an account page with that user's info. {if logged in = true, log out button = visible (on all pages). use the signed in user's username to display the name for "Signed in as {name}". Keep user signed in on all pages until clicking log out button. }
 
 sign in page just has username and password fields where you can sign in and go to the account page for that user.
+
+when click sign up link -> go to /SignUp
+
+when clicking submit on Sign Up -> create newUser, fetch /SignedUp and make POST request with newUser as the body
+
+all routes is done in react using fetch api
