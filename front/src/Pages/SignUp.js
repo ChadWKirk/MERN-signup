@@ -7,6 +7,13 @@ function SignUp() {
     email: "",
   });
 
+  // These methods will update the state properties.
+  function updateForm(value) {
+    return setForm((prev) => {
+      return { ...prev, ...value };
+    });
+  }
+
   async function onSubmit(e) {
     const newUser = { ...form };
 
